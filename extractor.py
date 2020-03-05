@@ -1,7 +1,12 @@
-from __future__ import unicode_literals
 import re
 
-class toCSV:
+# extracts three in a row exponetial data tuples per line
+# and save it to csv file.
+
+#@author: Benedikt Hofrichter,
+#         benedikt.hofrichter@benespira.com
+
+class extractor:
 
     source_filepath = "CV_Initial.txt"
     target_filepath = "csv_data.csv"
