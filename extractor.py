@@ -55,5 +55,5 @@ class extractor:
                             self.check_and_write_to_CSV(qual_array, tf)
 
 
-processor = toCSV()
+processor = extractor()
 processor.process()
